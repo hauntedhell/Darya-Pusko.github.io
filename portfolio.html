@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио - Проекты</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+    <!-- Переключатель темы -->
+    <div class="theme-toggle">
+        <button id="themeSwitch" class="theme-btn">
+            <span class="sun">☀️</span>
+            <span class="moon">🌙</span>
+        </button>
+    </div>
+
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">И.Иванов</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">Обо мне</a></li>
+                <li><a href="skills.html">Навыки</a></li>
+                <li><a href="portfolio.html" class="active">Портфолио</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <div class="mobile-menu">☰</div>
+        </div>
+    </nav>
+
+    <!-- Секция "Портфолио" -->
+    <section class="page-section">
+        <div class="container">
+            <h1 class="page-title">Моё портфолио</h1>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">📊</div>
+                    <div class="project-info">
+                        <h3>Дашборд аналитики</h3>
+                        <p>Интерактивная панель для визуализации данных</p>
+                        <div class="project-tech">React, D3.js, Node.js</div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">Смотреть проект</a>
+                            <a href="#" class="btn btn-secondary">Исходный код</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">🛍️</div>
+                    <div class="project-info">
+                        <h3>Интернет-магазин</h3>
+                        <p>Полнофункциональный e-commerce сайт</p>
+                        <div class="project-tech">Vue.js, Laravel, Stripe</div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">Смотреть проект</a>
+                            <a href="#" class="btn btn-secondary">Исходный код</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">📱</div>
+                    <div class="project-info">
+                        <h3>Мобильное приложение</h3>
+                        <p>Кроссплатформенное приложение для iOS/Android</p>
+                        <div class="project-tech">React Native, Firebase</div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">Смотреть проект</a>
+                            <a href="#" class="btn btn-secondary">Исходный код</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">🎓</div>
+                    <div class="project-info">
+                        <h3>Образовательная платформа</h3>
+                        <n>Онлайн-курсы и интерактивные задания</n>
+                        <div class="project-tech">Angular, Express.js, MongoDB</div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">Смотреть проект</a>
+                            <a href="#" class="btn btn-secondary">Исходный код</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">И.Иванов</div>
+                <div class="social-links">
+                    <a href="#" class="social-link">GitHub</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Telegram</a>
+                </div>
+                <p>&copy; 2024 Иван Иванов. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

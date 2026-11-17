@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио - Контакты</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+    <!-- Переключатель темы -->
+    <div class="theme-toggle">
+        <button id="themeSwitch" class="theme-btn">
+            <span class="sun">☀️</span>
+            <span class="moon">🌙</span>
+        </button>
+    </div>
+
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">И.Иванов</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">Обо мне</a></li>
+                <li><a href="skills.html">Навыки</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
+                <li><a href="contacts.html" class="active">Контакты</a></li>
+            </ul>
+            <div class="mobile-menu">☰</div>
+        </div>
+    </nav>
+
+    <!-- Секция "Контакты" -->
+    <section class="page-section">
+        <div class="container">
+            <h1 class="page-title">Свяжитесь со мной</h1>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Давайте обсудим ваш проект</h2>
+                    <p>Если у вас есть идея или задача, я буду рад помочь её реализовать.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span>📧</span>
+                            <div>
+                                <h3>Email</h3>
+                                <p>ivan@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span>📱</span>
+                            <div>
+                                <h3>Телефон</h3>
+                                <p>+7 (999) 123-45-67</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span>📍</span>
+                            <div>
+                                <h3>Локация</h3>
+                                <p>Москва, Россия</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links-large">
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Telegram</a>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Ваш email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Телефон">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Сообщение" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">И.Иванов</div>
+                <div class="social-links">
+                    <a href="#" class="social-link">GitHub</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Telegram</a>
+                </div>
+                <p>&copy; 2024 Иван Иванов. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

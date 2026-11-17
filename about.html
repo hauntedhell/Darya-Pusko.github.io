@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио - Обо мне</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+    <!-- Переключатель темы -->
+    <div class="theme-toggle">
+        <button id="themeSwitch" class="theme-btn">
+            <span class="sun">☀️</span>
+            <span class="moon">🌙</span>
+        </button>
+    </div>
+
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">И.Иванов</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html" class="active">Обо мне</a></li>
+                <li><a href="skills.html">Навыки</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <div class="mobile-menu">☰</div>
+        </div>
+    </nav>
+
+    <!-- Секция "Обо мне" -->
+    <section class="page-section">
+        <div class="container">
+            <h1 class="page-title">Обо мне</h1>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Моя история</h2>
+                    <p>Я — passionate разработчик с более чем 5-летним опытом в создании веб-приложений. Моя специализация — frontend-разработка, но я также работаю с backend-частью проектов.</p>
+                    <p>Я увлечён созданием интуитивных интерфейсов и оптимизацией производительности. В моей работе важны как технические детали, так и эстетическая составляющая.</p>
+                    
+                    <h2>Мой подход</h2>
+                    <p>Я верю, что хорошее веб-приложение — это баланс функциональности, дизайна и производительности. Я всегда начинаю с понимания потребностей пользователя и только потом приступаю к реализации.</p>
+                    
+                    <h2>Карьера</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h3>Senior Frontend Developer</h3>
+                            <p>2022 - по настоящее время</p>
+                            <p>Руководство командой разработки, архитектура приложений.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Frontend Developer</h3>
+                            <p>2020 - 2022</p>
+                            <p>Разработка и интеграция пользовательских интерфейсов.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Junior Developer</h3>
+                            <p>2018 - 2020</p>
+                            <p>Изучение основ веб-разработки и участие в проектах.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>5+</h3>
+                        <p>Лет опыта</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>50+</h3>
+                        <p>Завершённых проектов</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>30+</h3>
+                        <p>Довольных клиентов</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">И.Иванов</div>
+                <div class="social-links">
+                    <a href="#" class="social-link">GitHub</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Telegram</a>
+                </div>
+                <p>&copy; 2024 Иван Иванов. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
